@@ -1,3 +1,2 @@
 first git try!
-if i insert 1 ,lets see what happen
-11111111111.
+this is a website that NJUPT Technology Department for teachers.
