@@ -17,8 +17,8 @@
 	   <img class="title_word" src="./image/title_word.png">
 	    <div class="fn_header" >
 			   <div class="herf_header">
-			   <!-- <a  class="change-color" > 切换整体颜色</a>
-			    <a  class="change-bg" > 切换背景</a> -->
+			   <a  class="change-color" > 切换整体颜色</a>
+			    <!-- <a  class="change-bg" > 切换背景</a> -->
 				<a href="http://www.njupt.edu.cn/">学校首页</a>
 				<a href="javascript:void(0);" onclick="SetHome(this,'http://kjc.njupt.edu.cn');">设为首页</a>
 				<a  href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">加入收藏</a>
@@ -72,7 +72,7 @@
 				
 				<li class="dropdown">
 	                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-	                    科研项目
+	                    自然科学
 	                </a>
 	                <ul class="dropdown-menu">
 	                    <li><a href="#">办事指南</a></li> 
@@ -262,14 +262,14 @@
 						</div>
 					</div>
 
-					<div class="col-md-6 column">
-					  <div class="sub-banner">
+					<div class="col-md-6 column" style="height: 420px;">
+					  <!-- <div class="sub-banner">
 					        <img src="./image/通知公告.png">
 							<span class="sub-title">通知公告</span>
 					  	  	<a href="#" class="more">更多</a>	  
-					  </div>
+					  </div> -->
 
-					  <div class="sub-info">
+					 <!--  <div class="sub-info">
 					        <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
 					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
 					  	    <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
@@ -278,7 +278,55 @@
 					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
 					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
 					  	    
-					  </div>	
+					  </div> -->
+                      <ul id="myTab" class="nav nav-tabs change-tab">
+						    <div class="sub-banner1">
+							        <img src="./image/通知公告.png">
+							  	  	<span class="sub-title" ><a href="" style="color:#333">通知公告</a></span>
+							  	  		  
+							  </div>
+						    <li class="active">
+						        <a href="#first" data-toggle="tab">
+						            人文社科
+						        </a>
+						    </li>
+						    <li><a href="#second" data-toggle="tab">自然科学</a></li>
+						    
+						</ul>
+						<div id="myTabContent" class="tab-content">
+						   
+						    <div class="tab-pane  active" id="first">
+						      <div class="row clearfix">
+						         <div class="sub-info">
+					        <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	    <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	    <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	    
+					  </div>
+						      </div>  
+						    </div>
+						    <div class="tab-pane " id="second">
+						      <div class="row clearfix">
+						          <div class="sub-info">
+					        <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	   
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	    <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
+					  	   
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	    <p class="info">发展改革委关于展开2017年第一批学业学术成果报告……<span class="time">2017-03-24</span></p>
+					  	    <p class="info">关于推荐2017年度高等学校科学研究优秀教师和学生……<span class="time">2017-03-23</span></p>
+					  	    
+					  </div>
+						      </div>
+						   </div>  
+						</div>
+
 					</div>
 					
 				</div>
@@ -371,7 +419,7 @@
 						   <span class="sub-title">科研系统登录</span>
 						  	  		  
 					</div>
-                   	 <a href="http://idssrv02.njupt.edu.cn/amserver/UI/Login?goto=http://kj.njupt.edu.cn:80/epstar/login/index.jsp&gotoOnFail=http://kj.njupt.edu.cn:80/epstar/login/index.jsp%253Ftype=fail" class="login-img"><img src="./image/login3.png"></a>
+                   	 <a href="http://idssrv02.njupt.edu.cn/amserver/UI/Login?goto=http://kj.njupt.edu.cn:80/epstar/login/index.jsp&gotoOnFail=http://kj.njupt.edu.cn:80/epstar/login/index.jsp%253Ftype=fail" class="login-img"><img  src="./image/login3.png"></a>
                    </div>
                    <div class="col-md-8">
 						 <div class="sub-banner">

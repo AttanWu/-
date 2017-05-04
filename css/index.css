@@ -15,7 +15,7 @@
 	background-size: 520px 95px;
 	background-position-x:15%;
 	background-position-y:center;  
-	background-color: #660033;
+	background-color: #3399cc;
 	
 }*/
 /*背景图版本*/
@@ -25,7 +25,7 @@
 	margin:0 auto;
 	height: 140px;
 	background-repeat: no-repeat;
-	background-image:url(../image/head3.png);   
+	background-image:url(../image/3399CC/head3.png);   
 	background-size: 100% 100%;
 
 
@@ -97,7 +97,7 @@
 }
 
 .bg-on{
-	background-color: #660033;
+	background-color: #3399cc;
 }
 /*.navbar-nav > li:hover{
     border-bottom: 3px solid #00007B;
@@ -120,15 +120,17 @@
 }
 
 .dropdown > a {
-	color: #660033;
+	color: #3399cc;
 }
 
 .tab-pane .row{
 	width: 99.8%;
 	margin:0 auto;
 	margin-bottom: 30px;
-	padding-bottom: 20px;
-	border:2px solid #660033;
+	padding-bottom: 10px;
+	padding-left: 15px;
+    padding-right: 15px;
+	border:2px solid #3399cc;
     border-radius: 0 0 10px 10px;
 
 }
@@ -149,12 +151,12 @@
 
 .change-tab  .active  a{
     color: #fff !important;
-	background-color: #660033 !important;
+	background-color: #3399cc !important;
 }
 
 .change-tab a:hover{
 	/*border-color: none  !important;*/
-	border:1px solid #660033 !important;
+	border:1px solid #3399cc !important;
 
 }
 
@@ -193,7 +195,7 @@
 	text-align: center;
 	width: 15%;
 	margin:13px 40px;
-	background-color: #660033;
+	background-color: #3399cc;
 	color: #fff;
 }
 
@@ -203,11 +205,13 @@
 }
 
 .carousel-indicators .active{
-	background-color: #660033;
+	background-color: #3399cc;
 }
 
+
+
 .sub-banner1{
-    top: 210px;
+    top: 0px;
 	position: absolute;
 	display: block;
 }
@@ -215,8 +219,15 @@
 	width: 70px;
 }
 
+.sub-banner1 .more{
+	float: right;
+	font-size: 14px;
+	padding: 24px 0;
+	margin-right: 20px;
+}
+
 .sub-banner{
-	border-bottom: 3px solid #660033;
+	border-bottom: 3px solid #3399cc;
 	padding-bottom: 10px;
 }
 
@@ -247,7 +258,7 @@
 
 .sub-info .time {
 	float: right;
-	color: #660033;
+	color: #3399cc;
 }
 
 
@@ -262,7 +273,7 @@
 
 .sub-info2 .time {
 	float: right;
-	color: #660033;
+	color: #3399cc;
 }
 
 
@@ -277,7 +288,7 @@
 
 .sub-info3 .time {
 	float: right;
-	color: #660033;
+	color: #3399cc;
 }
 
 .mini-info h5{
@@ -299,7 +310,7 @@
 .sub-info1 .time1 {
 	padding: 0;
 	font-size: 17px;
-	color: #660033;
+	color: #3399cc;
 }
 
 .login-img >img{
@@ -320,7 +331,7 @@
 .login input{
 	padding-left: 10px;
     border-radius: 25px;
-    border:1px solid #660033;
+    border:1px solid #3399cc;
     margin-left: 10px;
 }
 
@@ -334,8 +345,8 @@
 	position: relative;
 	left: 30px;
 	border-radius: 25px;
-	border:2px solid #660033;
-    background-color: #660033;
+	border:2px solid #3399cc;
+    background-color: #3399cc;
     color: #fff;
 }
 
@@ -345,8 +356,8 @@
     position: relative;
     right: 30px;
 	border-radius: 25px;
-	border:2px solid #660033;
-    background-color: #660033;
+	border:2px solid #3399cc;
+    background-color: #3399cc;
     color: #fff;
 }
 
@@ -381,13 +392,13 @@
 	font-size: 15px;
 	font-weight: normal;
 	cursor: pointer;
-	color: #660033;
+	color: #3399cc;
 	margin-left:35px;
 	margin-top: 20px;
 	text-align: center;
 	width: 90px;
 	border-radius: 25px;
-	border:1px solid #660033;
+	border:1px solid #3399cc;
 
 }
 
@@ -403,25 +414,25 @@
 	font-size: 15px;
 	font-weight: normal;
 	cursor: pointer;
-	color: #660033;
+	color: #3399cc;
 	margin-left: 10px;
 	margin-top: 30px;
 	text-align: center;
 	width: 90px;
 	border-radius: 25px;
-	border:1px solid #660033;
+	border:1px solid #3399cc;
 
 }*/
 
 #footer{
 	height: 180px;
-	background-color: #660033;
+	background-color: #3399cc;
 }
 
 #links{
 	height: 120px;
 	background-color: #ededed;
-	color: #660033;
+	color: #3399cc;
 }
 
 #links  p{
@@ -445,7 +456,7 @@
 	cursor: pointer;
 	width: 80px;
 	font-size: 12px;
-	border: 1px solid #660033;
+	border: 1px solid #3399cc;
 	border-radius:25px;   
 	padding-bottom: 0px; 
 	padding-left: 5px;
@@ -458,7 +469,7 @@
 }
 .btn-group ul{
 	background-color: #ededed;
-	border: 1px solid #660033;
+	border: 1px solid #3399cc;
 	border-radius:5px ;
 	min-width: 100px;
 }
