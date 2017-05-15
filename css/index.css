@@ -162,19 +162,19 @@
 
 .carousel{
 
-    height: 360px;
+    height: 430px;
 }
 
 .carousel img{
 	width: 652px;
-	height: 360px !important;
+	height: 430px !important;
 
 }
 
 
 .carousel ol{
 	left: 500px;
-	top: 375px;
+	top: 400px;
 }
 
 .carousel-caption{
@@ -401,7 +401,9 @@
 	border:1px solid #3399cc;
 
 }
-
+.download-ctent label:hover{
+	background-color: #eee;
+}
 
 /*下载专区 之前竖排第一版*/
 
