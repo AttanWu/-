@@ -25,10 +25,14 @@
 	margin:0 auto;
 	height: 140px;
 	background-repeat: no-repeat;
-	background-image:url(../image/3399CC/head3.png);   
+	background-image:url(../image/n3399CC/head2.png);   
 	background-size: 100% 100%;
 
 
+}
+
+.jiubanlianjie:hover{
+	cursor: pointer;
 }
 
 .title_word{
@@ -251,7 +255,7 @@
 	padding-top: 20px;
 }
 .sub-info p {
-	padding: 6px 0;
+	padding: 4px 0;
 	border-bottom: 2px solid #e5e5e5;
 	color:#353535;
 }
@@ -281,7 +285,7 @@
 	padding-top: 20px;
 }
 .sub-info3 p {
-	padding: 10px 0;
+	padding: 7px 0;
 	border-bottom: 2px solid #e5e5e5;
 	color:#353535;
 }
@@ -303,7 +307,7 @@
 }
 
 .mini-info{
-    padding-top: 15px;
+    padding-top: 22px;
     border-bottom: 2px solid #e5e5e5;
 
 }

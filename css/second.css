@@ -17,7 +17,7 @@
 .left-title{
 	font-weight: 200;
 	font-size: 25px;
-	color: #660033;
+	color: #3399cc;
 	margin-top: 15%;
 	margin-left: 5%;
 	margin-bottom: 15%;
@@ -55,7 +55,7 @@
 
 
 .right-title-bar{
-	border-bottom: 3px solid #660033;
+	border-bottom: 3px solid #3399cc;
 	padding-bottom: 12px;
 	margin-bottom: 30px;
 }
@@ -92,5 +92,5 @@
 
 .right-cont .time{
 	float: right;
-	color: #660033;
+	color: #3399cc;
 }
