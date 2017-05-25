@@ -307,7 +307,7 @@
 }
 
 .mini-info{
-    padding-top: 22px;
+    padding-top: 15px;
     border-bottom: 2px solid #e5e5e5;
 
 }
@@ -478,6 +478,8 @@
 	border: 1px solid #3399cc;
 	border-radius:5px ;
 	min-width: 100px;
+	height:180px;
+	overflow:auto;
 }
 
 .btn-group li{
